@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "881774726574",
+    "firebase_url": "https://homeswipe-76ed8.firebaseio.com",
+    "project_id": "homeswipe-76ed8",
+    "storage_bucket": "homeswipe-76ed8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881774726574:android:b0f1b542195efe44",
+        "android_client_info": {
+          "package_name": "com.example.homeswipe_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881774726574-lbt4blab4q3bq9jv16v8j53jqahuetvk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homeswipe_1",
+            "certificate_hash": "26cb288c2fdf089468338737edd5eb598d98328e"
+          }
+        },
+        {
+          "client_id": "881774726574-7qj5dm67tvmdo4sscd71rdib4buqhvuo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm4xJ3QI7ZlJ7dekhBhdk33_zw7RwCawA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881774726574-7qj5dm67tvmdo4sscd71rdib4buqhvuo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

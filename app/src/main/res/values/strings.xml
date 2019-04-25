@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HomeSwipe_1</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Hem</string>
+    <string name="title_dashboard">Gillade</string>
+    <string name="title_likes">Intresserade</string>
+    <string name="title_notifications">Meddelande</string>
+    <string name="title_logout">Logg ut</string>
+    <string name="title_profil">Profil</string>
+    <string name="title_activity_bottom_nav">bottom_nav</string>
+    <string name="title_activity_home_vard_empty">Home_vard_empty</string>
+    <string name="title_activity_apartment_click">Map</string>
+    <string name="_30kvm">30kvm</string>
+    <string name="minsta_yta">Antal rum</string>
+    <string name="button">Button</string>
+    <string name="title_activity_map">Map</string>
+</resources>

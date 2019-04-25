@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/navigation_apartment_room"
+        android:icon="@mipmap/bed"
+        android:state_checked="true"
+        android:title="Rum" />
+    <item
+        android:id="@+id/navigation_apartment_apartment"
+        android:icon="@mipmap/apartment"
+        android:title="Lägenhet" />
+    <item
+        android:id="@+id/navigation_apartment_vilage"
+        android:icon="@mipmap/village"
+        android:title="Villa"
+
+        />
+</menu>

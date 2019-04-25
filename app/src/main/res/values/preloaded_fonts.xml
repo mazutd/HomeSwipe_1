@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/acme</item>
+        <item>@font/advent_pro_bold</item>
+        <item>@font/alegreya_sans_sc_thin</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/audiowide</item>
+        <item>@font/farsan</item>
+        <item>@font/jaldi_bold</item>
+        <item>@font/ubuntu</item>
+    </array>
+</resources>

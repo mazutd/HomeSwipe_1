@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/loggain"
+    tools:context=".Intro.RegisteringActivity"
+    android:fitsSystemWindows="true"
+    >
+
+    <EditText
+        android:id="@+id/nameID"
+        android:layout_width="329dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="394dp"
+        android:background="@mipmap/input"
+        android:hint="Namn"
+        android:paddingLeft="20dp"
+        android:singleLine="true">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/emailID"
+        android:layout_width="329dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="323dp"
+        android:background="@mipmap/input"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:singleLine="true">
+
+    </EditText>
+
+    <RadioGroup
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioBtn"
+        android:layout_alignStart="@+id/emailID"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="220dp"
+        android:layout_marginLeft="4dp"
+        android:layout_alignLeft="@+id/emailID">
+
+        <RadioButton
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Hyresgäst" />
+
+        <RadioButton
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Hyresvärd" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/passwordID"
+        android:layout_width="329dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="168dp"
+        android:background="@mipmap/input"
+        android:hint="Lösenord"
+        android:inputType="textWebPassword"
+        android:paddingLeft="20dp"
+        android:singleLine="true">
+
+
+    </EditText>
+
+
+    <Button
+        android:id="@+id/registeraBtn"
+        android:layout_width="155dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="673dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginRight="128dp"
+        android:background="@mipmap/btninput"
+        android:text="Registera dig"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="259dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="74dp"
+        android:layout_marginBottom="664dp"
+        app:srcCompat="@mipmap/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="167dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_marginBottom="638dp"
+        android:text="Hitta ditt nästa hem idag !"
+        android:textColor="@android:color/white"
+        app:fontFamily="@font/ubuntu" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginBottom="13dp"
+        android:paddingBottom="20dp"
+        android:text="Redan medlem ?  "
+        android:textColor="#AFAFAF"
+        app:fontFamily="@font/ubuntu" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:layout_marginBottom="15dp"
+        android:paddingBottom="20dp"
+        android:text="Logga in "
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:fontFamily="@font/ubuntu" />
+</RelativeLayout>

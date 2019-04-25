@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/navigation_home_vard"
+        android:icon="@drawable/ic_supervisor_account_black_24dp"
+        android:title="@string/title_profil" />
+
+    <item
+        android:id="@+id/navigation_dashboard_vard"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="@string/title_likes" />
+    <item
+        android:id="@+id/empty"
+        android:enabled="false"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/navigation_notifications_vard"
+        android:icon="@drawable/ic_message_black_24dp"
+        android:title="@string/title_notifications" />
+    <item
+        android:id="@+id/navigation_logout_vard"
+        android:icon="@drawable/ic_close_black_24dp"
+        android:title="@string/title_logout"
+        />
+</menu>
